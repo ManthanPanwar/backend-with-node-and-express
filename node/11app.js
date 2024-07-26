@@ -62,6 +62,7 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   }
+
   if (url === "/message" && method === "POST") {
     let readValue;
     const body = [];
