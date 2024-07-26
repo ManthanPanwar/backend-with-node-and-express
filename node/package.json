@@ -1,0 +1,16 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "learning node from scratch",
+  "main": "10main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon 11app.js",
+    "start-server": "node 11app.js"
+  },
+  "author": "Manthan Panwar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
