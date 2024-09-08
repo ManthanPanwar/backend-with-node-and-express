@@ -1,0 +1,48 @@
+Server Side Rendering is not used now a days.(very slow)
+
+Client Side Rendering is used everywhere.(JSON response)
+
+Server Side Rendering(sending complete html,css,js file from the backend)
+
+EJS:
+[
+  it has html and you can send in 'variables' inside it.
+
+  means -------> you can write javascript(variables) inside html.
+]
+
+
+MVC(Models, Views, Controllers):
+[
+  it's all about separation of concerns. So making sure that different parts of your code do different things and you clearly know which
+  part is responsible for what.
+]
+
+Models:
+[
+  Models are basically objects or is a part of your code that is responsible for representing your data in your code and allowing you
+  to work with your data.(ex: save, fetch).So things like saving data, fetching data to or from file, this should be handled by models.
+]
+
+Views:
+[
+  views are responsible for what users sees in the end, they are responsible for rendering right content in our html documents and 
+  sending that back to the user. So they are decoupled from your application code and are just having light or minor integrations 
+  regarding the data we inject into our templating engines to generate these views.
+]
+
+Controllers:
+[
+  controllers are connections point between models and views because the views shouldn't care about the application logic and 
+  models do care about how to save and fetch data and so on, the control  lers are the things working with the models, saving that data, 
+  or triggering that save process and so on and also the part where they then pass that data that was fetched to your views. 
+  Controller is middleman, it contains in-between logic.
+]
+
+Routes:
+[
+  Routes are basically the things which define upon which path for which http method which controller method should execute, 
+  and then Controller is then the thing defining with which model to work and which view to render.
+]
+
+Controllers are kind of split across middleware functions.

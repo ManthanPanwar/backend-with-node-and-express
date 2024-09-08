@@ -1,0 +1,15 @@
+Deliverable:-
+
+Download the resource from this link.
+
+Now watch the videos from the following link
+
+Watch video 1 & 2 and understand what MVC exactly is.
+
+Can you explain the role of Model,Views and Controller.Please write your answer. (This is interviewer favourite question)
+
+Watch video 3- Add controllers like into the project. Controllers is just a design pattern to make your code readable.
+
+Try to make an error404 page. If stuck watch video 4  but first try it by yourself.
+
+  Now also make controllers for routes /contactus and /sucess which you created previously. Do it in the old file which you had created in task 12.
