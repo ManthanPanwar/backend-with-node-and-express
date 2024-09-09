@@ -1,0 +1,17 @@
+Deliverables:-
+
+Watch video 5  from the following link and convert the code to have models just like the way the  trainer does
+
+Try using the product and everything works fine. Now restart the node js process which is running in terminal. You will see all the products vanish. Why this happened? Tell me.
+
+Had we stored the data in file we would not have lost the data. Can you write logic to store data? Dont watch the next video and try implementing by yourself. (Hint- You have to use fs.readfile and fs.writefile) 
+
+Watch video 6 and 7 to understand the best way to store the data into files. Before watching , please try by yourself.
+
+Can you optimize the code which you wrote above. Dont watch the next video. Try by yourself
+
+The read file method is called twice unnecessary. Can you make a function which you can call
+
+Try doing this by yourself. You will learn a lot. If stuck look at the answer in 8. 
+
+Now push the code to git and upload the commit ID
