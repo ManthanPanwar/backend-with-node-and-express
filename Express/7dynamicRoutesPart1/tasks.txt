@@ -1,0 +1,26 @@
+Task details
+
+We are going to skip templating Engines as no one uses them as they are super slow.( We saved 2hrs of time :) ) The templating engine is very similar to html, css and js. 
+
+Just that we can pass variables into the template engine.
+
+I am going to show you how to design your own frontend just after 3 tasks using HTML , CSS and JS.
+
+
+
+Moving forward a few things would have changed in the code.
+
+We would be using Client side rendering. I have explained this in this video - (Watch from 7:30 min to 33 min)
+
+https://www.youtube.com/embed/KgVBj-IAgkg
+
+
+
+Deliverables:-
+
+
+
+Watch videos from 1 to 3  from the following link. Download the new resources via this link
+We only care about backend , so understand the frontend with a pinch of salt. Watch video 4 to 6 and make the products details page like the udemy trainer.
+Make the details page by watching video 7. 
+Only after doing the previous steps, Watch this video to understand Dynamc routes in depth and the truth about skipping EJS
