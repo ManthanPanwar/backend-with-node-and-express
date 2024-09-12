@@ -1,0 +1,16 @@
+[
+  {
+    "id": "24546789",
+    "title": "A Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book!",
+    "price": "19"
+  },
+  {
+    "id": "25463478",
+    "title": "monu",
+    "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbooks%2F&psig=AOvVaw1IqVb8mEkjNIGYtuIRpmXE&ust=1726058102309000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLic39CxuIgDFQAAAAAdAAAAABAE",
+    "description": "all books",
+    "price": "200"
+  }
+]

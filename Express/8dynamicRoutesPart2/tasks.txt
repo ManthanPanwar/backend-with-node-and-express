@@ -1,0 +1,12 @@
+Task details
+
+Deliverables
+
+
+Watch video 8 from the following link and implement adding the product to backend.
+
+Make a cart model and use it for making a cart system . Watch video 9 to implement this.
+
+How will you come to know which cart belongs to which user through the cart model?
+
+Push the code to git and upload commit ID.
