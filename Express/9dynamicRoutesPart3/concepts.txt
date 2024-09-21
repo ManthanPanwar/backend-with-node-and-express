@@ -1,0 +1,57 @@
+inside adminController:
+[
+  we are adding new controller ---> getEditProduct:
+  [
+    in this we are passing ----> editing: true (so that we can check with if condition to find out whether to save the product or edit.)
+  ]
+]
+
+queryparameter(can be added to any url):
+[
+  ?key=value
+  [
+    multiple queryparameter:
+    [
+      ?key=value&key2=value2.....
+    ]
+  ]
+]
+
+req.query(Object):
+[
+  managed by express.js to access the keys.
+  const editMode = req.query.edit;
+
+  the extracted value are always in string (we will get "true" not true)
+]
+
+example url:
+[
+  http://localhost:3000/admin/edit-product/24546789?edit=true
+]
+
+to get the id from the url:
+[
+  req.params.productId(you need to use params keyword)
+]
+
+we will use editMode for checking whether we want to edit a product or add a product.
+[
+  editing: editMode
+  [
+    we will use ejs in edit-product.ejs to change the view of our website.
+  ]
+]
+
+
+procedure to create edit-functionality:
+[
+  queryparameter -----> prepopulating edit-page -------> linking to edit-page -----> editing the product data(update product button)
+]
+
+updating the product data:
+[
+  we are using save() for adding and updating product.
+   
+  we just need to check if the save() whether we have the id or not.
+]

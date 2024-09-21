@@ -1,0 +1,26 @@
+Task details
+
+Deliverable:-
+
+Watch the videos 10 to 13 from the folllowing link and create the edit product page.
+
+
+
+DELIVERABLE
+
+
+Dont watch the delete product video and do the following. This is important for learning process. Or else you will not improve.
+
+Try for 2 hours and then see the video.
+
+Steps:-
+
+Add a delete button. (This is very similar to edit functionality)
+
+On click of the delete button call a new route ==> /delete/{id of product}
+
+Define this new route in your backend. Take the id.
+
+Now simply add a function in Product model called deleteproductbyID. Simply read from the file and remove the element
+
+Now reload the product page you shouldnot be able to see the product. Awesome
