@@ -1,0 +1,99 @@
+why use database:
+[
+  store data and make it easily accessible.
+
+  quicker than accessing a file.
+
+  Types:
+  [
+    1. SQL 
+    2. NOSQL
+  ]
+]
+
+SQL:
+[
+  it has tables(relations).
+
+  we have a strong Data Schema, so that for each table we clearly define how the data in there should look
+  like(which fields do we have, which type of data does each field store).
+
+  all data in the table has to fit in the Schema.
+
+  data is distributed across multiple tables.
+
+  we also have relations between our data:
+  [
+    one to one,
+    one to many,
+    many to many
+  ]
+
+  HS is difficult/impossible coz running all servers on one shared database is difficult.
+
+  VS is possible.
+
+  Limitations for lots of (thousands) read & write queries per second
+]
+
+NoSQL:
+[
+  we also have database in NoSQL but in NoSQL tables are called COLLECTIONS and we don't records in this,
+  instead we find documents.
+
+  NoSQL is SCHEMALESS: you can store multiple documents with different structure in the same collection.
+
+  here we have no relation between data instead we duplicate data which we need.
+
+  We have nested document of one collection into document of another collection
+
+  very fast and we dont need to use JOINS like we do in SQL
+
+  No Data Schema(no structure)
+  No Data Relations(no or few connections)
+
+  Data is typically merged/nested in a few collections.
+
+  Both HS and VS is possible.
+
+  Great performance for mass read and write requests.
+]
+
+Horizontal Scaling:
+[
+  in HS we simply add more servers(and merge data into one Database).
+
+   The advantage here is we can do this infinitely. We can always buy new servers and connect them 
+   to our database and splits our data across all these servers. Problem here is We also need some 
+   process that runs queries on all of them and merged them together which is difficult.
+]
+
+Vertical Scaling:
+[
+  improve server capacity/hardware.
+
+  We make our existing server stronger by adding more CPU or memory. The problem here is 
+  that you have some limit, you can't fit infinitely much CPU power into a single machine.
+]
+
+Which database to use completely depend upon the kind of data you want to store:
+[
+  if relations are very important and you want to split across tables then SQL is best.(ex:- users data).
+
+  for orders and shopping carts that do change frequently could be stored with NoSQL.
+]
+
+
+Connecting our app to SQL database:
+[
+  npm install --save mysql2
+
+  code that allows us to connect to SQL database:
+  [
+    util---->database.js:
+    [
+      gives back a connection object which allows us to run queries.
+    ]
+
+  ]
+]
