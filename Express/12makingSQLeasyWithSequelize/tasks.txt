@@ -1,0 +1,34 @@
+Task details
+
+Videos: Video number 1 to 5 from the following link
+
+
+Q.1 Explain what is sequelize and the need to sequelize.
+
+Q.2 What are different types of relations in SQL and how to implement these relations with sequelize?
+
+
+Modify the server in the previous task to use the sequelize to do all the functionality
+with the help of SQL database.
+
+
+
+SONU's Answers*******************************************************
+
+Sequelize is an Object-Relational Mapping Library.
+
+It does all the SQL code behind the scenes for us and maps it into javascript objects with 
+convenience methods which we can call to execute that behind the scenes SQL code so that we 
+never have to write SQL code on our own.
+
+We have our object and this is mapped to a database table by sequelize, it automatically 
+creates table for us even , it automatically sets up relations and tables even for us. 
+When we want to create a new object, we simply call a method on that Main JS object and 
+sequelize executes the SQL query that is required.
+
+
+Sequelize offers us models to work with our database and allows us to define models, 
+so basically define which data makes up a model and therefore which data will be saved in the database.
+
+We can then instantiate these models, so these classes so to say, we can execute the constructor 
+functions or use utility methods to create a new object based on that model

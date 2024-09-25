@@ -1,0 +1,41 @@
+Learn more about SEQUELIZE on sequelize docs.
+
+Instead of SQL statements as we have used in previous task. we will use a third party 
+package that allows us to work with javascript objects and convinient methods to create
+new elements in a database, to edit them, to delete them, or to find them and also to 
+connect them(relations).
+
+What is Sequelize:
+[
+  It is an Object Relational Mapping Library(ORM).
+
+  It does all the heavy lifting, all the SQL code behind the scenes for us and maps it into javascript
+  object with convenience methods which we can call to execute that behind the scenes SQL code.
+  So that we never have to write SQL code on our own.
+
+  We have our object and this is mapped to a database table by sequelize, it automatically 
+  creates table for us even , it automatically sets up relations and tables even for us. 
+  When we want to create a new object, we simply call a method on that users JS object and 
+  sequelize executes the SQL query that is required.
+
+  Sequelize offers us models to work with our database and allows us to define models, 
+  so basically define which data makes up a model and therefore which data will be saved in the database.
+
+  We can then instantiate these models, so these classes so to say, we can execute the constructor 
+  functions or use utility methods to create a new object based on that model and we can then run queries
+  on that.
+]
+
+Sequelize is a production dependent package.
+how to install Sequelize package:
+[
+  npm install --save sequelize
+]
+
+****important***
+Sequelize needs mysql2 package installed.
+
+
+sequelize.sync() is aware of all your models.
+if the tables are not created then sequelize will create one for us and it won't rewrite the table if
+its already present.
