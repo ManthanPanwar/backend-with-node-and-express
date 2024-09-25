@@ -1,0 +1,8 @@
+0
+
+The mysql package doesn't bundle types. Types are available for it through the Definitely
+Typed project (you can tell because of the)  icon on its npm page. Install that with 
+ 
+npm install -D '@types/mysql'. Then it should work. I presume you're doing an import like this?:
+
+import * as mysql from "mysql";

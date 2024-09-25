@@ -1,0 +1,5 @@
+db.execute() is used to perform all the SQL queries.
+
+
+this implementation of query(using ?) is used to prevent SQL injection attacks.
+db.execute("some query takes dynamic input (?, ?, ?, ....)", [input1, input2, input3, ....])

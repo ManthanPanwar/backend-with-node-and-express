@@ -5,7 +5,8 @@ const pool = mysql.createPool({
   user: "root",
   database: "node_complete",
   password: "monuboss",
-  debug: true, // This will output MySQL logs to the console
 });
 
 module.exports = pool.promise();
+
+mysql.cre;

@@ -1,0 +1,12 @@
+Task details
+
+Deliverables:
+
+Watch video 7 from following link to create a table like the udemy trainer
+Watch videos 8 to 14 and understand how to Insert , update and Get all the products in the table.
+Now write the code by yourself .
+
+
+Project
+
+Now implement the delete functionality. When i click on delete button the product should get deleted.

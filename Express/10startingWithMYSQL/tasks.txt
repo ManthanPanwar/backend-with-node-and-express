@@ -1,0 +1,72 @@
+Task details
+
+Watch videos 1 to 4 from the following link
+
+
+
+Answer the following
+
+Tell me when should you use SQl and when No SQL
+What is vertical and horizontal scaling.
+
+
+
+
+Deliverables
+
+Watch video 5 Install the MySQL database code. Set the root user password.
+Also install the workbench. If stuck check youtube videos too and try writing the error into google and finding the answer. (If nothing work try reinstalling)
+Watch video 6 to connect to MySQL database to node js server.
+
+
+Guys we would be using SQL for our next projects. Please do SQL and dont use MongoDB, or else you would have to repeat all the tasks again.
+
+The companies that hire from sharpener, expect student to be amazing with SQL.
+
+Moreover all companies have their primary database as SQL.
+
+We would be teaching you NOSQL in the end too. Dont worry!!!.
+
+
+
+*******************************************************************************************************
+
+1) Our goal is to store data and make it easily accessible. DataBase are quicker and faster than reading and writing file.
+
+Two types of databases : SQL (MySQL) and NoSQL(MongoDB). [structured query language]
+
+SQL database has data schema, this defines how the data has to look like. We have strictly defined schema and all data in the table has to fit this schema(datatypes like int boolean etc).
+
+SQL database has relations between data. We can relate different tables with three kinds of relationships (one to one, one to many, many to many)
+
+
+
+NoSQL database has no data schema. We can have mixed data in collection, no structure is required. We have generally no data relations.
+
+At the place of tables, we have collections in NoSQL and at the place of data in columns we have documents which look like JS objects. We dont have
+
+relations between collections instead we have duplicate data. We have nested document of one collection into document of another collection. NoSQL is very
+
+fast and efficient because we don't have to connect tables to retrieve data.
+
+
+
+SQL : data uses schema, Relations, Data is distributed across multiple tables, Horizontal scaling is difficult / impossible; Vertical scaling is possible, Limitations for lots of (thousand) read & write queries per second(if we do complex joints between related tables).
+
+
+
+NoSQL: schema-less, no Relations, Data is typically merged / nested in a few collections, Both horizontal and vertical scaling is possible, Great performance for mass read & write requests. NoSQL can be very performant in an application with high throughput.
+
+
+
+which to use: It depends upon kind of data you are storing. if you are storing where relations are really important and where you want to have a split up across tables and where you want to have strong schemas, SQL can be perfect, also not every part of your data is accessed multiple times per second. You can have parts of your application where you manage general data let's say user data which does not change that often and therefore, SQL might be very good. Other parts of application, let's say orders or shopping cart that do change frequently could be stored with NoSQL and there, the relations might also not be that important because you can always put all the information that belongs to a shopping cart or to an order in one single document.
+
+
+
+
+
+2) We often need to scale up our database as our application grows to keep up with more and more users. Horizontal and vertical scaling are two approaches we can use to scale our database.
+
+HORIZONTAL SCALING: we simply add more servers. The advantage here is we can do this infinitely. We can always buy new servers and connect them to our database and splits our data across all these servers. Problem here is We also need some process that runs queries on all of them and merged them together which is difficult.
+
+VERTICAL SCALING: We make our existing server stronger by adding more CPU or memory. The problem here is that you have some limit, you can't fit infinitely much CPU power into a single machine.
