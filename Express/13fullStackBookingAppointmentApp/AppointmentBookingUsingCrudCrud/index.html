@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="msg"></div>
+    <div class="form-container">
+      <form id="contact-form">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+        />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" />
+
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+    </div>
+    <br />
+    <br />
+    <div class="ul-container">
+      <ul id="detailAdded"></ul>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <script src="main.js"></script>
+</html>

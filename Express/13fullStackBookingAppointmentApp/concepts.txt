@@ -1,0 +1,21 @@
+Product.create() creates a new element based on Product model and immediately saves it to the database.
+
+Product.build() also creates a new pbject based on Product model but only in javascript and then we need 
+to save it manually.
+
+Product.findAll() fetches all the records for this model.
+
+.findAll({where:{id: prodId} }) can also be configured with some options(where condition and so on) to restrict the 
+data we are fetching and gives us a array and we are interested in first element.
+
+Product.findByPk() is a function in sequelize that helps us to retrieve a particular record.
+and returns a single product.
+
+product.save() is another method provided by sequelize and this takes the updated product object and
+saves it back to the database. and if the product does not exist then it will create new one.
+
+Product.destroy({where: }) to delete something from the database.
+or you can use Product.findByPk().then(product=>product.destroy()) calling the destroy on product object 
+not on the Product Model.
+
+***************Learn more about this methods from sequelize docs*****************

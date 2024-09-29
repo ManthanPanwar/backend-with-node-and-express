@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ul-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-container input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 3px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+}
+.form-container button:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  margin-left: 20px;
+  background: red;
+}
+
+.edit-btn {
+  margin-left: 20px;
+  background: green;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+li {
+  margin-bottom: 15px;
+}

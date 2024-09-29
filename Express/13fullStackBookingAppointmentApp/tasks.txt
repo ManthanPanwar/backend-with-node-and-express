@@ -1,0 +1,28 @@
+Task details
+
+Resources:
+
+Watch video 6 to 12 from following link and learn how to update delete and get product.
+Write the code by yourself and upload to git and add the commit ID.
+
+
+Project - Watch this demo
+
+1) Make a table called User by yourself.
+
+2) Remember the booking appointment form which you had made as first task in js. Its time to move away from crud crud as you also now know backend development.
+
+3)First thing create an insert user api, which takes data from the registration form and adds it to the user DB. [Watch hint 1 if stuck for more than 30 min]
+
+4) Create the get user api to get all the users inserted into the database. Show them in the frontend like before. [Watch hint 2 if stuck for long]
+
+5)Create the delete api to delete users which we do not want. [Watch hint 3 if stuck for long]
+
+6) Clean the code using controllers and route structure [Watch hint 4 if stuck but this is super easy]
+
+
+
+Steps to connect HTMl, CSS, JS code to Node Js (I have explained everything here (Watch from 41st min)-> https://www.youtube.com/embed/KgVBj-IAgkg
+
+1) Also while sending response do not send HTML but send JSON res.json()
+2) You might get a cors issue. Please resolve by installing cors package https://www.npmjs.com/package/cors
