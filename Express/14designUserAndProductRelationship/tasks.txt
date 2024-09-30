@@ -1,0 +1,15 @@
+Task details
+
+Watch Video number 13 to 17 from the following link 
+
+
+
+Deliverable:
+
+Write the code as per the udemy trainer.
+
+I hope you understand what One to many relationship is. If you are confused hasMany and 
+belongsto read this https://sequelize.org/master/manual/assocs.html
+
+What kind of a relationship is there between User and Product (One to Many or Many to Many).
+Tell me the reason for doing this. (if you are confused check hints 1)

@@ -1,0 +1,28 @@
+Association === relation
+
+connect all the things and define how they work together.
+
+we will relate Product and User model in App.js file
+[
+  import both the models
+
+  then before sequelize.sync() write the relations code:
+  [
+    Product.belongsto(User, {configuration object-----> constraints: true, onDelete: "CASCADE"})
+  ]
+]
+
+CASCADE meaning ---------> if we delete the user then the products created by that user will also be gone.
+
+we already created the tables and it won't save changes over it.
+to save changes we need to use .sync({force: true})
+
+
+i will create a new middleware because i want store new user in my request body, so that i can access it from anywhere in my app.
+
+The user object stored in our request body is an sequelize object which consists of user data and some helper/magic functions.
+req.user.createProduct({new product object}) will automatically set the userId according to the user selected.
+req.user.getProducts({where: {id: prodId}}) only selecting products which are held by a particular user.
+[
+  learn more about these methods from Sequelize docs
+]
