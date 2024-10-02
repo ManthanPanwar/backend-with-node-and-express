@@ -1,0 +1,12 @@
+a Cart should belong to a single user but may hold multiple products.
+
+the carts table however should hold the different carts for the different users
+
+so we not just need the carts table and model but we also need new cart-item model and table.
+
+Cart and Product are connected through a intermediate table -------> CartItem(stores combination of Product_id's and Cart_id's)
+Cart.belongsToMany(Product, {through: CartItem});
+Product.belongsToMany(Cart, {through: CartItem});
+
+p.cartItem is extra fields given to us by sequelize.
+Product.cartItem.quantity

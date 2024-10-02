@@ -1,0 +1,23 @@
+Task details
+
+Deliverables
+
+Watch video 18 to 20 from the following link  and understand how to implement the cart system from 
+the backend. Do not care about the views. Although they are simple to understand.
+
+Do not watch video 21 - Implement this first - Right now if you add the same product again the 
+quantity doesnt increase. It stays 1. can you write the logic to handle that. Try for 30 min.If
+ still stuck see video 21
+
+Donot watch video 22 - When the user clicks on the delete button in the cart , the product should
+ get deleted from the cart. To delete you have to call "destroy()" function. Try by yourself first.
+  This is easy.﻿
+
+\
+
+
+Mastering SQL
+
+Can you write a simple SQL query to fetch all the products in cart of user id =1;
+
+Can you write a simple SQL query to fetch all the users who have product id =1 in their cart
